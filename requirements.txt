@@ -20,7 +20,7 @@ snowflake-sqlalchemy
 numba==0.58.1
 ipywidgets
 pandas-profiling
-ydata-profiling
+
 
 # TensorFlow and PyTorch
 tensorflow
@@ -36,3 +36,4 @@ faker
 openpyxl
 mlflow
 transformers
+ydata-profiling
