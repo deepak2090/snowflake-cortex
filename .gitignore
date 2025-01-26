@@ -3,3 +3,4 @@
 2-ml-pipelines-on-datasets/1-data-collection/2-data-access/3-builtin-datasets.ipynb
 jobs.csv
 .snowflake/connections.toml
+3-ml-pipelines-using-snowpark/1-snowpark-overview/2-functions.ipynb
