@@ -43,6 +43,8 @@ create or replace function proc3(s string)
   handler = 'MyClassS'
 as $$
 # import snowflake.snowpark as snowpark
+#the yield makes it behave like a table in sequential manner
+
 class MyClassS:
   def process(self, s: str):
     yield (s,)
